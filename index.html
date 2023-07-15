@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./style.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
+</head>
+<body>
+<section class="container">
+    <div class="sidebar">
+        <div class="sidebar-1">
+            <div style="margin:0" class="icon-container">
+                <img style="width:150px;height:150px" src="./Restaurent_Icon.png" alt="Restaurent_Icon">
+            </div>
+            <div>
+                <h2 style="margin:0;text-align: center;">A1 Restaurent Menu</h2>
+            </div>
+            <div>
+                <h4 style="color:red;margin:0;text-align: center;">Hundreds of flavors under one roof.</h4>
+            </div>
+        </div>
+<div class="sidebar-2">
+    <div class="links-container">
+        <div  style="text-align: center;" class="link-title">Quick Links</div>
+        <ol class="links-list">
+            <li><a href="#" (click)="renderHomepage()">Home</a></li>
+            <li><a href="#">Your Orders</a></li>
+            <li><a href="#">Wallet</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Logout</a></li>
+        </ol>
+    </div>
+    <div class="links-container">
+        <div style="text-align: center;"  class="link-title">More About Us</div>
+        <ol class="links-list">
+            <li><a href="#">Our blog</a></li>
+            <li><a href="#">Upcoming Dishes</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Social Media Links</a></li>
+        </ol>
+    </div>
+</div>
+        
+
+    </div>
+
+    <div class="content">
+        <div class="search-container">
+            <div class="search-bar">
+                <span class="material-icons">
+                    search
+                </span>
+                <input type="search" placeholder="Search Food Item" class="search-input">
+            </div>
+            <button class="signUp">SignUp</button>
+            <button class="login">Login</button>
+            <img style="width:50px;height:50px" src="./Restaurent_Icon.png" alt="Restaurent Icon" class="icon">
+        </div>
+        <div class="banner">
+            <img style="width:70vw;height:40vh" src="./Restaurent_Banner.png" alt="Restaurent_Banner" class="banner">
+        </div>
+        <div class="menu-container">
+            <div>
+                <h4 style="padding-left: 50px;">Menu</h4>
+            </div>
+            <div class="container-1">
+                <div class="card-container">
+                    <div class="card-img-container">
+                        <img  style="width:240px;height:200px" src="./burger-card-container-image.png" alt="Burger Image">
+                    </div>
+                    <div class="item-desc-container">
+                        <div class="name-price">
+                            <h4>Burger</h4>
+                            <p>$5.99/-</p>
+                        </div>
+                        <button class="plus-icon">
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-img-container">
+                        <img  style="width:240px;height:200px" src="./burger-card-container-image.png" alt="Burger Image">
+                    </div>
+                    <div class="item-desc-container">
+                        <div class="name-price">
+                            <h4>Burger</h4>
+                            <p>$5.99/-</p>
+                        </div>
+                        <button class="plus-icon">
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card-img-container">
+                        <img  style="width:240px;height:200px" src="./burger-card-container-image.png" alt="Burger Image">
+                    </div>
+                    <div class="item-desc-container">
+                        <div class="name-price">
+                            <h4 style="margin:0;padding:0">Burger</h4>
+                            <p style="margin:0;padding:0">$5.99/-</p>
+                        </div>
+                        <button class="plus-icon">
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

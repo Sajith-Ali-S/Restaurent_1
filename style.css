@@ -1,0 +1,139 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    display:grid;
+    grid-template-columns: 3fr 9fr;
+    gap:30px;
+    margin:30px;
+}
+
+.sidebar{
+    position: fixed;
+    display:flex;
+    height:85vh;
+    gap:30px;
+    flex-direction: column;
+    color: white;
+    background-color: #0C0E10;
+    justify-items: center;
+    padding:20px;
+    border-radius: 4px;
+    
+}
+.sidebar-1{
+    align-items: center;
+}
+.sidebar-1,.sidebar-2{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+.links-list>li>a{
+    text-decoration: none;
+    color:white;
+    margin:2px 0;
+}
+
+.content{
+    margin-left: 22vw;
+    display:flex;
+    flex-direction: column;
+    background-color: #111315;
+    color: white;
+    padding: 30px;
+    width:70vw;
+    gap:30px;
+    border-radius: 4px;
+
+}
+
+.search-container{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    /* position:-webkit-sticky; */
+    /* position: sticky; */
+}
+.search-bar{
+    display:flex;
+    gap:10px;
+    background-color: #272A30;
+    align-items: center;
+    flex:3;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+.search-input{
+    background-color: #272A30;
+    padding:10px;
+    flex:1;
+    border:none;
+    outline:none;
+    color:white;
+}
+
+.search-container>button{
+    padding:8px 16px;
+    border-radius: 4px;
+    flex:1;
+    background-color: #FF2424;
+    color:white;
+
+}
+.search-container>.icon{
+    border-radius: 50%;
+}
+
+.banner{
+    width:70vw;
+}
+.menu-container{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    background-color: #111315;
+}
+.menu-container>.container-1{
+    display:flex;
+    flex-wrap: wrap;
+}
+.card-container{
+    padding:10px;
+    margin: 20px;
+    background-color: #191D20;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-desc-container{
+    display:flex;
+    align-items: center;
+    width:230px;
+    height:80px;
+    padding:10px;
+    justify-content: space-between;
+    gap:20px;
+}
+.name-price{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    gap: 20px;
+    
+}
+.plus-icon{
+    padding:5px 10px;
+    background-color: #4b4f53;
+    border-radius: 4px;
+    border:1px solid #878787;
+    color:#878787;
+}
